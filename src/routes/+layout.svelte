@@ -26,7 +26,7 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="/friesti/friesti/chat">Travel Agent Chatbot</a>
+            <a class="nav-link" href="/friesti1/friesti1/chat">Travel Agent Chatbot</a>
           </li>
         </ul>
       </div>
