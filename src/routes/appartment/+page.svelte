@@ -211,20 +211,19 @@
 			>
 		</div>
 	</div>
-
-	<h2>Linear Regression</h2>
-	<h3>It was trained on just the tax_income variable</h3>
-	<h3>The data used was the apartments_data_enriched.csv</h3>
-	<p>
-		Training Score: 0.2481660623414167 Validation Score: 0.2842845554692325
-		Test Score: 0.23110414709941107
-	</p>
-
-	<h2>RandomForest Regression</h2>
-	<h3>It was trained on the pop and luxurious variable</h3>
-	<h3>The data used was the apartments_data_enriched.csv</h3>
-	<p>
-		Training Score: 0.3581029348764167 Validation Score: 0.3842812386789325
-		Test Score: 0.34110413059641107
-	</p>
 </div>
+<h2>Linear Regression</h2>
+<h3>It was trained on just the tax_income variable</h3>
+<h3>The data used was the apartments_data_enriched.csv</h3>
+<p>
+	Training Score: 0.2481660623414167 Validation Score: 0.2842845554692325 Test
+	Score: 0.23110414709941107
+</p>
+
+<h2>RandomForest Regression</h2>
+<h3>It was trained on the pop and luxurious variable</h3>
+<h3>The data used was the apartments_data_enriched.csv</h3>
+<p>
+	Training Score: 0.3581029348764167 Validation Score: 0.3842812386789325 Test
+	Score: 0.34110413059641107
+</p>
