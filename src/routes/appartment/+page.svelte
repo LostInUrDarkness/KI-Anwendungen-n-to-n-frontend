@@ -116,7 +116,37 @@
 	function handleSubmit() {
 		let url =
             PUBLIC_BASE_URL +
-            "/api/predict/?bfs_number=" +
+            "/api/predict/randomforest/?bfs_number=" +
+            selected.id +
+            "&area=" +
+            area +
+            "&rooms=" +
+            rooms;
+        console.log(url);
+        axios.get(url).then((response) => {
+            price = 'CHF ' + response.data;
+        });
+	}
+
+	function handleSubmitLinear() {
+		let url =
+            PUBLIC_BASE_URL +
+            "/api/predict/linear/?bfs_number=" +
+            selected.id +
+            "&area=" +
+            area +
+            "&rooms=" +
+            rooms;
+        console.log(url);
+        axios.get(url).then((response) => {
+            price = 'CHF ' + response.data;
+        });
+	}
+
+	function handleSubmitRandomForest() {
+		let url =
+            PUBLIC_BASE_URL +
+            "/api/predict/randomforest2/?bfs_number=" +
             selected.id +
             "&area=" +
             area +
@@ -151,6 +181,9 @@
 	  </div>
 	  <div class="col-md-auto">
 		<button type="button" class="btn btn-primary" on:click={handleSubmit}>price estimation</button>
+		<button type="button" class="btn btn-primary" on:click={handleSubmitLinear}>Linear Regression</button>
+		<button type="button" class="btn btn-primary" on:click={handleSubmitRandomForest}>RandomForest Regression</button>
+
 	  </div>
 	</div>
   </div>
