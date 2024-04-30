@@ -196,7 +196,7 @@
 			<button
 				type="button"
 				class="btn btn-primary"
-				on:click={handleSubmit}>price estimation</button
+				on:click={handleSubmit}>Example Model</button
 			>
 			<button
 				type="button"
@@ -212,7 +212,7 @@
 		</div>
 	</div>
 </div>
-<h2>Linear Regression</h2>
+<h2 style="margim-top: 5rem;">Linear Regression</h2>
 <h3>It was trained on just the tax_income variable</h3>
 <h3>The data used was the apartments_data_enriched.csv</h3>
 <p>
